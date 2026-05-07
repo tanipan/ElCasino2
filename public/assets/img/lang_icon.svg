@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.88 38.88">
+    <defs>
+        <style>.cls-1{fill:none;stroke:#2d0242;stroke-miterlimit:10;stroke-width:1.5px;}</style>
+    </defs>
+    <g id="Capa_2" data-name="Capa 2">
+        <g id="Diseño">
+            <circle class="cls-1" cx="19.44" cy="19.44" r="18.69"/>
+            <ellipse class="cls-1" cx="19.44" cy="19.44" rx="6.32" ry="18.68"/>
+            <line class="cls-1" x1="0.75" y1="19.44" x2="38.13" y2="19.44"/>
+            <line class="cls-1" x1="3.84" y1="9.15" x2="35.04" y2="9.15"/>
+            <line class="cls-1" x1="3.84" y1="29.97" x2="35.04" y2="29.97"/>
+        </g>
+    </g>
+</svg>

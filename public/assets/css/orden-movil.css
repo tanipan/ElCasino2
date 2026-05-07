@@ -1,0 +1,107 @@
+a{
+    text-decoration: none !important;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    background-image:  url(../img/fondo\ footer.png) ;
+    background-size: cover;
+    background-position: top;
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+
+
+.fondoNavbar{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+.header{
+    background-image: url(../img/image-6.png);
+    background-size: cover;
+    background-position: bottom;
+}
+.textoPrincipal{
+    font-size: 40px;
+}
+.contenedorTextoPrincipal{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 80%;
+}
+.imagen-pedido{
+    width: 150px;
+}
+.fondoVerde{
+    background-color: #06BF19 !important;
+    color: #fff !important;
+    border-color: #06BF19;
+}
+.accordion-button:not(.collapsed){
+    background-color: #06BF19 !important;
+    color: #fff !important;
+    border-color: #06BF19;
+}
+
+.fondoIcono{
+    background-color: rgba(6, 191, 25, 0.28);
+}
+.colorIcono{
+    color: #06BF19;
+}
+.fondoGris{
+    background-color: #E5E5E5;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #999999;
+    width: 100%;
+    padding: 10px;
+}
+.paddingBody{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.imagenDecoracionPlato{
+    display: none;
+}
+
+
+@media only screen and (min-width: 600px){
+
+
+
+}
+@media only screen and (min-width: 768px){
+    .imagenDecoracionPlato{
+        display: flex;
+    }
+
+ 
+
+}
+@media only screen and (min-width: 900px){
+    .paddingBody{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .contenedorTextoPrincipal{
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 60%;
+    }
+
+
+
+}
+@media only screen and (min-width: 1300px){
+
+
+
+
+}
+
+

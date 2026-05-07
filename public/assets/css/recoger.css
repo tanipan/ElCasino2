@@ -1,0 +1,515 @@
+a{
+    text-decoration: none !important;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    background-image:  url(../img/fondo\ footer.png) ;
+    background-size: cover;
+    background-position: top;
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+
+
+.fondoNavbar{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+.header{
+    background-image: url(../img/image-6.png);
+    background-size: cover;
+    background-position: bottom;
+}
+.textoPrincipal{
+    font-size: 40px;
+}
+.contenedorTextoPrincipal{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 80%;
+}
+.imagen-pedido{
+    width: 150px;
+}
+.fondoVerde{
+    background-color: #06BF19 !important;
+    color: #fff !important;
+    border-color: #06BF19;
+}
+.accordion-button:not(.collapsed){
+    background-color: #06BF19 !important;
+    color: #fff !important;
+    border-color: #06BF19;
+}
+
+.fondoIcono{
+    background-color: rgba(6, 191, 25, 0.28);
+}
+.colorIcono{
+    color: #06BF19;
+}
+.fondoGris{
+    background-color: #E5E5E5;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #999999;
+    width: 100%;
+    padding: 10px;
+}
+.paddingBody{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.imagenDecoracionPlato{
+    display: none;
+}
+
+
+.subtitulo{
+    width: 100%;
+    margin-top: 0%;
+}
+
+
+.navbar-nav .nav-link {
+    padding-right: 5%;
+    padding-left: 5%;
+    inline-size: max-content;
+
+}
+.listado-restaurantes{
+    display: block;
+}
+.card-restaurante{
+    width: 100%;
+    padding: 5px;
+
+}
+/* .card-restaurante .card{
+    border: none;
+} */
+.restaurante-logo{
+    width: 100px;
+    margin-right: 5px;
+}
+
+.accordion-item{
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid #C4C4C4;
+
+}
+
+.orden{
+    display: none;
+}
+.logo-restaurante{
+    width: 100px;
+}
+.titulo-restaurante{
+    height: 120px;
+    align-items: center;
+}
+.menu-movil-barra{
+    background-color: #06BF19;
+    color: white;
+    margin-bottom: 0px;
+}
+.btn-orden-rapida{
+    display: none;
+}
+.btn-orden-rapida-movil{
+    width: 100%;
+
+}
+.btn-orden-rapida-movil .btn{
+    width: 100%;
+    
+}
+
+.btn-orden-movil{
+    background-color: #06BF19;
+    color: white;
+    text-align: center;
+    padding-left: 34%;
+    padding-right: 34%;
+}
+.btn-orden-movil:not(.collapsed) {
+    background-color: #06BF19;
+    color: white;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.btn-orden-movil::after{
+    background-image: none;
+}
+.btn-orden-movil:not(.collapsed)::after{
+    background-image: none;
+}
+
+.card-body{
+    padding: 0px;
+}
+.listado-pedido{
+    margin-top: 20px;
+    display: flex;
+}
+.informacion-plato{
+    display: block;
+    width: 50%;
+}
+.cantidad-plato{
+    width: 25%;
+}
+.precio-plato{
+    width: 25%;
+    text-align: right;
+}
+.cantidad-plato .btn{
+    padding: 0px;
+}
+.cantidad-plato .btn-group{
+    border-radius: 3px;
+}
+.observaciones{
+    margin-top: 20px;
+}
+.subtotal{
+    font-size: 15px;
+    width: 50%;
+}
+.subtotal-caja{
+    margin-top: 10px;
+    display: flex;
+}
+.subtotal-valor{
+    font-size: 15px;
+    width: 50%;
+    text-align: right;
+    color: #06BF19;
+}
+.envio-caja{
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.precio-totalidad{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #C4C4C4;
+}
+.totalidad-caja{
+    display: flex;
+}
+.totalidad{
+    font-size: 15px;
+    width: 50%;
+}
+.totalidad-valor{
+    font-size: 15px;
+    width: 50%;
+    text-align: right;
+}
+.orden-movil{
+    display: flex;
+}
+.icon-plus{
+    background-color: #C4C4C4;
+    border-radius: 5px;
+    padding: 3px;
+}
+.icon-minus-1{
+    background-color: #C4C4C4;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.accordion-item:not(.collapsed) .accordion-button {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    color: #06BF19;
+    background: white;
+}
+.accordion-item .accordion-button {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    color: white;
+    background: #06BF19;
+}
+.accordion-button::after{
+    display: none;
+}
+.facturacion{
+    padding: 5px;
+}
+
+
+
+
+@media only screen and (min-width: 600px){
+
+
+
+}
+@media only screen and (min-width: 768px){
+    .imagenDecoracionPlato{
+        display: flex;
+    }
+    .card-plato{
+        display: flex;
+        padding: 20px 20px 10px 20px;
+        flex-direction: row;
+    
+    }
+    .card-plato .card-title{
+        width: 75%;
+    }
+    .btn-orden-movil{
+        
+        padding-left: 40%;
+        padding-right: 40%;
+    }
+    .accordion-button:not(.collapsed) {
+ 
+        background-color: white;
+        box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+        color: #06BF19;
+    }
+
+ 
+
+}
+@media only screen and (min-width: 900px){
+    .paddingBody{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .contenedorTextoPrincipal{
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 60%;
+    }
+    .accordion-button:not(.collapsed) {
+        color: white !important;
+        background-color: #06BF19 !important;
+
+        box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    }
+    .logo-restaurante{
+        width: 200px;
+        border-radius: 20px;
+    }
+
+    section{
+        padding: 0% 5% 0% 5%;
+        margin-top: 5%;
+    }
+    footer{
+        display: flex;
+        text-align: left;
+
+    }
+    
+    .navbar{
+        padding: 0% 5% 0% 5%;
+    }
+    .navbar-nav{
+        padding-left: 10%;
+    }
+
+    .boton-localidad{
+        width: 90%;
+        display: flex;
+        height: 80px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+        padding: 30px;
+        font-size: 15px;
+        z-index: 1;
+    }
+    .container-location{
+        width: 574px;
+        text-align: left;
+        margin-top: 5%;
+    }
+    .boton-localidad{
+        width: 480px;
+        margin-top: 10%;
+        padding: 30px;
+    }
+    .texto-principal{
+        display: contents;
+    }
+
+    .orden {
+        display: block;
+        width: 32%;
+        margin-left: 2%;
+    }
+    .accordion{
+        width: 65%;
+    }
+    .facturacion{
+        width: 65%;
+    }
+    .accordion-body{
+        padding: 10px 5px 10px 5px;
+    }
+    .menu{
+        display: flex;
+    }
+
+    .orden .card{
+        padding: 20px;
+    }
+    .facturacion{
+        padding: 20px;
+        height: min-content;
+    }
+    .btn-group{
+        width: 100%;
+    }
+    .listado-restaurantes .card-title{
+        line-height: 15px;
+
+    }
+    .listado-restaurantes .card-title p{
+        margin-top: 10px;
+        
+    }
+
+    .card-body{
+        padding: 0px;
+    }
+    .listado-pedido{
+        margin-top: 20px;
+        display: flex;
+    }
+    .informacion-plato{
+        display: block;
+        width: 50%;
+    }
+    .cantidad-plato{
+        width: 25%;
+    }
+    .precio-plato{
+        width: 25%;
+    }
+    .cantidad-plato .btn{
+        padding: 0px;
+    }
+    .cantidad-plato .btn-group{
+        border-radius: 3px;
+    }
+    .observaciones{
+        margin-top: 20px;
+    }
+    .subtotal{
+        font-size: 15px;
+        width: 50%;
+    }
+    .subtotal-caja{
+        margin-top: 10px;
+        display: flex;
+    }
+    .subtotal-valor{
+        font-size: 15px;
+        width: 50%;
+        text-align: right;
+        color: #06BF19;
+    }
+    .envio-caja{
+        margin-top: 10px;
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .precio-totalidad{
+        margin-bottom: 15px;
+        border-bottom: 1px solid #C4C4C4;
+    }
+    .totalidad-caja{
+        display: flex;
+    }
+    .totalidad{
+        font-size: 15px;
+        width: 50%;
+    }
+    .totalidad-valor{
+        font-size: 15px;
+        width: 50%;
+        text-align: right;
+    }
+    .accordion-button:not(.collapsed) {
+        color: black;
+        background-color: white;
+        box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    }
+    .barra-pedido-movil{
+        display: none;
+    }
+    .btn-orden-rapida{
+        
+    }
+    .btn-orden-rapida .btn{
+        font-size: small;
+    }
+    .opciones ul li{
+        
+    }
+    .footer-item a{
+        color: gray;
+        margin: 15px;
+        height: 25%;
+    }
+    .footer-item {
+        margin-bottom: 10px;
+    }
+    
+    .container-footer{
+        border-top: 1px solid #C4C4C4;
+        width: 100%;
+    }
+    .titulo-footer{
+        font-size: 16px;
+        padding-left: 7%;
+        margin-bottom: 10px;
+    }
+    .listado-redes ul{
+        font-size: 35px;
+        display: flex;
+        color: gray;
+        height: 100%;
+        align-items: center;
+    }
+    .nav-lg{
+        display: flex;
+    }
+    .nav-sm{
+        display: none;
+    }
+    .orden-movil{
+        display: none;
+    }
+    .btn-orden-rapida-movil{
+        display: none;
+    }
+
+
+
+
+}
+@media only screen and (min-width: 1300px){
+
+
+
+
+}
+
+

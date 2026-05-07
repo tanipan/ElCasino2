@@ -1,0 +1,457 @@
+a{
+    text-decoration: none !important;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    background-image:  url(../img/fondo\ footer.png) ;
+    background-size: cover;
+    background-position: top;
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* .fondoIngreso{
+    background-image: url(../img/image-6.png);
+    background-size: cover;
+    height: 300px;
+} */
+
+.fondoNavbar{
+    background-color: rgba(0, 0, 0, 0.42);
+}
+.header{
+    background-image: url(../img/image-6.png);
+    background-size: cover;
+    background-position: bottom;
+}
+.textoPrincipal{
+    font-size: 40px;
+}
+.contenedorTextoPrincipal{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 80%;
+}
+.imagen-pedido{
+    width: 150px;
+}
+.fondoVerde{
+    background-color: #06BF19 !important;
+    color: #fff !important;
+    border-color: #06BF19;
+}
+.accordion-button:not(.collapsed){
+    background-color: #06BF19 !important;
+    color: #fff !important;
+    border-color: #06BF19;
+}
+
+.fondoIcono{
+    background-color: rgba(6, 191, 25, 0.28);
+}
+.colorIcono{
+    color: #06BF19;
+}
+.fondoGris{
+    background-color: #E5E5E5;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #999999;
+    width: 100%;
+    padding: 10px;
+}
+.paddingBody{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.imagenDecoracionPlato{
+    display: none;
+}
+.subtitulo{
+    width: 100%;
+    margin-top: 0%;
+}
+
+
+.navbar-nav .nav-link {
+    padding-right: 5%;
+    padding-left: 5%;
+    inline-size: max-content;
+
+}
+.listado-restaurantes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-restaurante{
+    width: 100%;
+    padding: 5px;
+    height: 130px;
+}
+.restaurante-logo{
+    width: 100px;
+    margin-right: 5px;
+}
+.card-plato{
+    padding: 20px 20px 10px 20px;
+    height: 100%;
+}
+.card-plato .card-body{
+    padding: 0px;
+    height: 30px;
+}
+.cabecera-card-plato{
+    height: 80%;
+}
+
+.logo-restaurante{
+    width: 100px;
+}
+.titulo-restaurante{
+    height: 120px;
+    align-items: center;
+}
+.menu-movil-barra{
+    background-color: #06BF19;
+    color: white;
+    margin-bottom: 0px;
+}
+.btn-orden-rapida{
+    display: none;
+}
+
+.btn-orden-movil{
+    background-color: #06BF19;
+    color: white;
+    text-align: center;
+    padding-left: 34%;
+    padding-right: 34%;
+}
+.btn-orden-movil:not(.collapsed) {
+    background-color: #06BF19;
+    color: white;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.btn-orden-movil::after{
+    background-image: none;
+}
+.btn-orden-movil:not(.collapsed)::after{
+    background-image: none;
+}
+.cabecera-card-plato{
+    height: 60%;
+}
+.card-restaurante .card{
+    height: 130px;
+}
+.card-body{
+    padding: 0px;
+}
+.listado-pedido{
+    margin-top: 20px;
+    display: flex;
+}
+.informacion-plato{
+    display: block;
+    width: 50%;
+}
+.cantidad-plato{
+    width: 25%;
+}
+.precio-plato{
+    width: 25%;
+    text-align: right;
+}
+.cantidad-plato .btn{
+    padding: 0px;
+}
+.cantidad-plato .btn-group{
+    border-radius: 3px;
+}
+.observaciones{
+    margin-top: 20px;
+}
+.subtotal{
+    font-size: 15px;
+    width: 50%;
+}
+.subtotal-caja{
+    margin-top: 10px;
+    display: flex;
+}
+.subtotal-valor{
+    font-size: 15px;
+    width: 50%;
+    text-align: right;
+    color: #06BF19;
+}
+.envio-caja{
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.precio-totalidad{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #C4C4C4;
+}
+.totalidad-caja{
+    display: flex;
+}
+.totalidad{
+    font-size: 15px;
+    width: 50%;
+}
+.totalidad-valor{
+    font-size: 15px;
+    width: 50%;
+    text-align: right;
+}
+.orden-movil{
+    display: flex;
+}
+.icon-plus{
+    background-color: #C4C4C4;
+    border-radius: 5px;
+    padding: 3px;
+}
+.icon-minus-1{
+    background-color: #C4C4C4;
+    border-radius: 5px;
+    padding: 3px;
+}
+.accordion-button:not(.collapsed) {
+
+    background-color: white;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    background: #ec8282;
+    color: #06BF19;
+}
+.accordion-button::after{
+    display: none;
+}
+.seccion-boton{
+    height: 100%;
+    align-content: center;
+}
+
+.nav-sm-section{
+    width: 25%;
+    text-align: center;
+}
+.nav-name{
+    font-size: 10px;
+    color: gray;
+}
+
+
+
+@media only screen and (min-width: 600px){
+
+    .imagenDecoracionPlato{
+        display: flex;
+    }
+
+}
+@media only screen and (min-width: 768px){
+
+    .card-restaurante{
+        width: 50%;
+    }
+    .btn-orden-movil{
+        
+        padding-left: 40%;
+        padding-right: 40%;
+    }
+    .accordion-button:not(.collapsed) {
+ 
+        background-color: white;
+        box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+        background: #ec8282;
+        color: #06BF19;
+    }
+
+
+
+ 
+
+}
+@media only screen and (min-width: 900px){
+    .paddingBody{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .contenedorTextoPrincipal{
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 60%;
+    }
+    .accordion-button:not(.collapsed) {
+        color: white !important;
+        background-color: #06BF19 !important;
+
+        box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    }
+    .logo-restaurante{
+        width: 200px;
+        border-radius: 20px;
+    }
+
+   
+
+    .orden {
+        display: block;
+        width: 32%;
+        margin-left: 2%;
+    }
+
+    .accordion-body{
+        padding: 10px 5px 10px 5px;
+    }
+    .menu{
+        display: flex;
+    }
+
+    .orden .card{
+        padding: 20px;
+    }
+    .btn-group{
+        width: 100%;
+    }
+    .listado-restaurantes .card-title{
+        line-height: 15px;
+
+    }
+    .listado-restaurantes .card-title p{
+        margin-top: 10px;
+        
+    }
+    .cabecera-card-plato{
+        height: 60%;
+    }
+    .card-restaurante .card{
+        height: 130px;
+    }
+    .card-body{
+        padding: 0px;
+    }
+    .listado-pedido{
+        margin-top: 20px;
+        display: flex;
+    }
+    .informacion-plato{
+        display: block;
+        width: 50%;
+    }
+    .cantidad-plato{
+        width: 25%;
+    }
+    .precio-plato{
+        width: 25%;
+    }
+    .cantidad-plato .btn{
+        padding: 0px;
+    }
+    .cantidad-plato .btn-group{
+        border-radius: 3px;
+    }
+    .observaciones{
+        margin-top: 20px;
+    }
+    .subtotal{
+        font-size: 15px;
+        width: 50%;
+    }
+    .subtotal-caja{
+        margin-top: 10px;
+        display: flex;
+    }
+    .subtotal-valor{
+        font-size: 15px;
+        width: 50%;
+        text-align: right;
+        color: #06BF19;
+    }
+    .envio-caja{
+        margin-top: 10px;
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .precio-totalidad{
+        margin-bottom: 15px;
+        border-bottom: 1px solid #C4C4C4;
+    }
+    .totalidad-caja{
+        display: flex;
+    }
+    .totalidad{
+        font-size: 15px;
+        width: 50%;
+    }
+    .totalidad-valor{
+        font-size: 15px;
+        width: 50%;
+        text-align: right;
+    }
+    .barra-pedido-movil{
+        display: flex;
+    }
+    .btn-orden-rapida{
+        right: 0;
+        left: auto;
+        padding: 10px;
+        width: 16%;
+        border-radius: 50%;
+        display: block;
+    }
+    .btn-orden-rapida .btn{
+        font-size: small;
+    }
+    .opciones ul li{
+        
+    }
+    .footer-item{
+        color: gray;
+        margin: 10px;
+        height: 25%;
+    }
+    
+    .container-footer{
+        border-top: 1px solid #C4C4C4;
+        width: 100%;
+    }
+    .titulo-footer{
+        font-size: 16px;
+        padding-left: 7%;
+    }
+    .listado-redes ul{
+        font-size: 35px;
+        display: flex;
+        color: gray;
+        height: 100%;
+        align-items: center;
+    }
+    .nav-lg{
+        display: flex;
+    }
+    .nav-sm{
+        display: none;
+    }
+
+
+
+
+
+}
+@media only screen and (min-width: 1300px){
+
+
+
+
+}
+
+
