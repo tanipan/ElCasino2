@@ -13,6 +13,11 @@ class Table extends Model
     use SoftDeletes;
 
     protected $guarded = ['id', 'created_at', 'updated_at'];
+    
+    public function orders()
+    {
+        return $this->hasMany(Order::class, 'table');
+    }
 
     public function location()
     {
@@ -23,6 +28,10 @@ class Table extends Model
 
     public function getOrders()
     {
+        if ($this->relationLoaded('orders')) {
+            return $this->orders;
+        }
+
         $today = date('Y-m-d');
 
         return Order::where('table', $this->id)
@@ -34,6 +43,10 @@ class Table extends Model
 
     public function getOrdersPending()
     {
+        if ($this->relationLoaded('orders')) {
+            return $this->orders->where('status', 1);
+        }
+
         $today = date('Y-m-d');
 
         return Order::where('table', $this->id)
@@ -134,6 +147,28 @@ class Table extends Model
 
     public function idTableFullyServed()
     {
+        if ($this->relationLoaded('orders')) {
+            $total_units = 0;
+            $total_served = 0;
+            $has_lines = false;
+
+            foreach ($this->orders as $order) {
+                if ($order->relationLoaded('orderLines')) {
+                    foreach ($order->orderLines as $line) {
+                        $has_lines = true;
+                        $total_units += $line->units;
+                        $total_served += $line->units_served_table;
+                    }
+                }
+            }
+
+            if ($has_lines) {
+                return ($total_units > 0 && $total_units == $total_served);
+            } else {
+                return false;
+            }
+        }
+
         $today = date('Y-m-d');
 
         $results = DB::select("select sum(ol.`units_served_table`) = sum(ol.`units`) servida

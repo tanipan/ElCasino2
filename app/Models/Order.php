@@ -16,6 +16,11 @@ class Order extends Model
 
     protected $guarded = ['id', 'created_at', 'updated_at'];
 
+    public function orderLines()
+    {
+        return $this->hasMany(OrderLine::class, 'order_id');
+    }
+
     public function customer()
     {
         return $this->belongsTo(Customer::class);

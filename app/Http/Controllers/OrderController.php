@@ -1695,7 +1695,12 @@ class OrderController extends Controller
 
     public function roomSituationAjax(Request $request)
     {
-        $tables = Table::all();
+        $today = date('Y-m-d');
+        $tables = Table::with(['orders' => function ($query) use ($today) {
+            $query->where('paid', 0)
+                ->where('status', "!=", 6)
+                ->whereRaw("date(date) between '$today 00:00:00' and '$today 23:59:59'");
+        }, 'orders.orderLines'])->get();
 
         $tables = $this->tableOrganizer($tables);
 
